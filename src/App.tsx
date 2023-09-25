@@ -1,6 +1,7 @@
 
 import './App.css'
-import { MuiButton } from './component/MuiButton'
+import { MuiButtonGroup } from './component/MuiButtonGroup'
+//import { MuiButton } from './component/MuiButton'
 // import { TypographyComponent } from './component/Typography/TypographyComponent'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       {/* <TypographyComponent /> */}
-      <MuiButton/>
+      {/* <MuiButton/> */}
+      <MuiButtonGroup />
     </>
   )
 }
