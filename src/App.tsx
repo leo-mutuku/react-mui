@@ -1,13 +1,15 @@
 
 import './App.css'
-import { TypographyComponent } from './component/Typography/TypographyComponent'
+import { MuiButton } from './component/MuiButton'
+// import { TypographyComponent } from './component/Typography/TypographyComponent'
 
 function App() {
 
 
   return (
     <>
-      <TypographyComponent />
+      {/* <TypographyComponent /> */}
+      <MuiButton/>
     </>
   )
 }
