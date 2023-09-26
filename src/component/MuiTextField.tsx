@@ -40,6 +40,16 @@ export const MuiTextField = () => {
         InputProps={{
           endAdornment:<InputAdornment position="end"><VisibilityIcon/></InputAdornment>
         }}/>
+
+        <TextField 
+        label="Form input"
+        required
+        value={value}
+        error={!value}
+        onChange={(e)=> setValue(e.target.value)}
+        helperText={
+          !value ? 'Required' : 'Do not share your password with anyone'
+        }/>
     </Stack>
    </Stack>
   )
