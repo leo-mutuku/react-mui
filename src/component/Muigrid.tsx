@@ -1,8 +1,8 @@
-import { Box, Divider, Grid, Stack } from "@mui/material"
+import { Box, Divider, Grid, Stack, Paper } from "@mui/material"
 
 export const Muigrid = () => {
   return (
-    <>
+    <Paper sx={{ padding:'32px'}} elevation={4}>
      <Stack sx={{border:'1px solid'}}
     direction={'row-reverse'}
     spacing={2}
@@ -42,6 +42,6 @@ export const Muigrid = () => {
             <Box bgcolor={'primary.light'} padding={2}>Item 4</Box>
         </Grid>
     </Grid>
-    </>
+    </Paper>
   )
 }
