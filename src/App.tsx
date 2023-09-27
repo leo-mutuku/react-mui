@@ -1,9 +1,10 @@
 
 import './App.css'
+import { MuiCard } from './component/MuiCard'
 //import { MuiAutocomplete } from './component/MuiAutocomplete'
 //import { MuiLayouts } from './component/MuiLayouts'
 //import { MuiStack } from './component/MuiStack'
-import { Muigrid } from './component/Muigrid'
+//import { Muigrid } from './component/Muigrid'
 // import MuiCheckbox from './component/MuiCheckbox'
 // import { MuiRadio } from './component/MuiRadio'
 // import { MuiSelect } from './component/MuiSelect'
@@ -32,7 +33,8 @@ function App() {
      {/* <MuiStar /> */}
      {/* <MuiLayouts /> */}
      {/* <MuiStack /> */}
-     <Muigrid />
+     {/* <Muigrid /> */}
+     <MuiCard />
     </>
   )
 }
