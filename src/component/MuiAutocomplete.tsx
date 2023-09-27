@@ -21,7 +21,8 @@ export const MuiAutocomplete = () => {
          freeSolo
          onChange={(event:any, newValue:string | null)=>setValue(newValue)}
         />
-         <Autocomplete options={skillsOption}
+         <Autocomplete 
+         options={skillsOption}
          renderInput={(params)=><TextField {...params} label='skills'/>}
          value={skill}
          onChange={(event:any, newValue:skill | null)=>setSkill(newValue)}
