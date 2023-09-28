@@ -1,6 +1,7 @@
 
 import './App.css'
 import { MuiAccordion } from './component/MuiAccordion'
+import { MuiNavbar } from './component/MuiNavbar'
 //import { MuiCard } from './component/MuiCard'
 //import { MuiAutocomplete } from './component/MuiAutocomplete'
 //import { MuiLayouts } from './component/MuiLayouts'
@@ -36,7 +37,8 @@ function App() {
      {/* <MuiStack /> */}
      {/* <Muigrid /> */}
      {/* <MuiCard /> */}
-     <MuiAccordion/>
+     {/* <MuiAccordion/> */}
+     <MuiNavbar />
     </>
   )
 }
