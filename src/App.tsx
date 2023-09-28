@@ -1,8 +1,10 @@
 
-import './App.css'
+
+
 import { MuiAccordion } from './component/MuiAccordion'
 import { MuiNavbar } from './component/MuiNavbar'
 //import { MuiCard } from './component/MuiCard'
+
 //import { MuiAutocomplete } from './component/MuiAutocomplete'
 //import { MuiLayouts } from './component/MuiLayouts'
 //import { MuiStack } from './component/MuiStack'
@@ -36,9 +38,13 @@ function App() {
      {/* <MuiLayouts /> */}
      {/* <MuiStack /> */}
      {/* <Muigrid /> */}
+      mui-navbar
      {/* <MuiCard /> */}
      {/* <MuiAccordion/> */}
      <MuiNavbar />
+
+     <MuiCard />
+
     </>
   )
 }
